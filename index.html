@@ -1,0 +1,136 @@
+<!Doctype html>
+<html lang="pl">
+<head>
+	<title>7 cudów </title>
+	<meta charset=UTF-8>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link type="text/css" rel="stylesheet" href="js/lightgallery.css"/> 
+</head>
+
+<body>
+
+<div class="article">
+
+<div class="header"><h1>7 cudownych polskich piłkarzy</h1></div>
+
+<div class="menu1">
+
+</br>
+~ Wybór zawodnika ~ </br></br>
+<ul>
+<li type=disc><a href="podstrony/mlynarczyk.html">Józef Młynarczyk</a></li>   </br></br>
+<li type=disc><a href="podstrony/piszczek.html">Łukasz Piszczek</a></li>      </br></br>
+<li type=disc><a href="podstrony/zmuda.html">Władysław Żmuda</a></li>         </br></br>
+<li type=disc><a href="podstrony/deyna.html">Kazimierz Deyna</a></li>         </br></br>
+<li type=disc><a href="podstrony/boniek.html">Zbigniew Boniek</a></li>        </br></br>
+<li type=disc><a href="podstrony/lewandowski.html">Robert Lewandowski</a></li></br></br>
+<li type=disc><a href="podstrony/lubanski.html">Włodzimierz Lubański</a></li></br></br>
+</ul>
+
+</div>
+
+<div class="text">
+
+	</br>
+	<h3>Od 4 października do 20 listopada 2019 roku kibice reprezentacji Polski mogli 
+	wybierać swoją Reprezentację 100-lecia. Ostateczną jedenastkę poznaliśmy 6 grudnia 
+	podczas uroczystej Gali zorganizowanej z okazji obchodów stulecia PZPN. 
+	Zapraszam do poznania siedmiu zawodników z najlepszej drużyny w historii polskiego futbolu.</h3>
+	<br><br><br>
+	<img src=images/rep.png alt="Zdjęcie reprezentacji 100-lecia" title="Reprezentacja 100-lecia" width=500 height=285 /><br>
+	</br>
+	<a target="_blank" href="images/repka1.jpeg"><img src="images/repka1mini.jpg" alt="Zdjęcie 1" border="0"></a>
+
+
+<div id="lightgallery">
+  <a href="images/repka1.jpeg">
+      <img class="img" src="images/repka1.jpeg"/>
+  </a>
+    <a href="images/repka2.jpg">
+      <img class="img" src="images/repka2.jpg"/>
+  </a>
+    <a href="images/repka3.jpg">
+      <img class="img" src="images/repka3.jpg"/>
+  </a>
+    <a href="images/repka4.jpg">
+      <img class="img" src="images/repka4.jpg"/>
+  </a>
+    <a href="images/repka5.jpg">
+      <img class="img" src="images/repka5.jpg"/>
+  </a>
+</div>
+
+<form action="*">
+
+<h3>ANKIETA</h3>
+<h4>Czy moja strona Ci się podoba</h4>
+<!--
+Pole opcji typu radio jest wykluczającym się polem wyboru. Zaznaczenie jednego guzika spowoduje odznaczenie innego. Żeby to zadziałało trzeba uzupełnić przycisk radio o atrybut name, który musi mieć identyczną wartość dla wszystkich wykluczających się radio input’ów.
+
+Atrybut value jest szczególnie przydatny, w przypadku elementu radio. Chodzi tu o przesyłanie informacji. W przypadku elementów <input> typu tekstowego, użytkownik wprowadza tam wartość, która następnie zostanie przesłana formularzem, np. jego adres email. Jednak w przypadku elementu radio button nie ma możliwości wprowadzenia takiej informacji przez użytkownika, zaznacza on jedynie pole. Wartość tą musimy sami dostarczyć do elementu radio button, właśnie poprzez atrybut value.
+-->
+  <input type="radio" id="yes" name="opinion" value="yes" <!--checked-->
+  <label for="yes">Tak</label><br> 
+<!-- 
+checked - pole jest automatycznie zaznaczone (np. wiemy, że formularz jest kierowany do konkretnej grupy odbiorców, można wtedy automatycznie zaznaczyć pole, by użytkownik miał mniej pracy) 
+-->
+  <input type="radio" id="no" name="opinion" value="no">
+  <label for="no">Nie</label><br>
+ 
+
+ <h3>Dlaczego tak odpowiedziałeś?</h3>  
+<!--
+Textarea jest to wieloliniowe pole, w którym możemy wpisywać nie tylko krótkie formy pisemne, ale całe referaty, czy felietony. Element textarea potrzebuje znacznika zamykającego, a pomiędzy znacznikami możemy (ale nie musimy) wprowadzić domyślny tekst, który może być edytowany przez użytkownika.
+Dla elementu <textarea> charakterystyczne jest to, że możemy dowolnie zmieniać jego wielkość chwytając za prawy dolny róg lewym klawiszem myszki.
+-->
+<!--
+cols - szerokość pola tekstowego; szerokość nie jest wyrażana w pikselach, a w znakach (literach, cyfrach itd.). Atrybut cols działa na zasadzie nie mniejsze niż wpisana przez nas wartość. W dalszym ciągu możemy zmieniać wielkość obszaru tekstowego, jednak nie możemy pomniejszyć jego szerokości poniżej wprowadzonej wartości.
+rows - ilości wierszy
+--> 
+     
+  <label><textarea class="message">Wyraź swoją opinię:</textarea></label> <!-- Szerokość i wysokość zmieniona za pomocą CSS -->  
+	
+	<br><br>
+	
+  <label for="email">Wprowadź email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+<!--
+required - pole obowiązkowe. Dzięki niemu możemy wymóc na użytkowniku wypełnienie lub zaznaczenie pola. 
+-->  
+
+  <input type="submit" value="Wyślij" onclick="event.preventDefault();alert('DZIĘKUJĘ ZA WYPEŁNIENIE ANKIETY')"> <!-- value - wartość wyświetlana na przycisku -->
+  <input type="reset" value="Wyczyść formularz"> <!-- value - wartość wyświetlana na przycisku -->
+
+
+
+
+</form>
+
+</div>
+
+<div class="menu2">
+
+</br>
+~ Linki zewnętrzne ~ <br><br>
+<ol>
+<li><a href=https://pl.wikipedia.org/wiki/Reprezentacja_Polski_w_pi%C5%82ce_no%C5%BCnej_m%C4%99%C5%BCczyzn target=_blank>Historia reprezentacji</a></li></br></br>
+<li><a href=http://www.hppn.pl/reprezentacja/trenerzy-i-selekcjonerzy?c=1 target=_blank>Lista trenerów i selekcjonerów</a></li></br></br>
+<li><a href=http://www.hppn.pl/reprezentacja/pilkarze target=_blank>Lista wszystkich reprezentantów Polski</a></li></br></br>
+<li><a href=https://ciekawe.org/2018/07/30/reprezentacja-polski-historia-porazek-i-sukcesow-polskiej-pilki-noznej/ target=_blank>Historia meczów z lat 60-tych</a></li></br></br>
+</ol>
+
+</div>
+
+<div class="foot">Autor strony: Dawid Gronkiewicz ZSLiT nr 1 2tb</div>
+
+</div>
+
+<script src="js/lightgallery.js"></script>
+<script src="js/lg-thumbnail.min.js"></script>
+<script src="js/lg-fullscreen.min.js"></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery')); 
+</script>
+
+</body>
+</html>
